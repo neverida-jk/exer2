@@ -1,0 +1,175 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jake Neverida</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                background-image: url('bg.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            section {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .featured {
+                display: flex;
+                justify-content: center;      
+            }
+
+            .projects {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .about {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .skills {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .hero {
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+            }
+
+            .bot {
+                display: flex;
+                flex-direction: row;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .header {
+                background-image: url('header.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                box-shadow: 0px 5px 10px #aaaaaa;
+                color: #fff;
+                text-align: center;
+                height: fit-content;
+                padding: 10px;
+            }
+
+            .logo {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            .projectImage {
+                width: 400px; 
+                height: 400px;
+                box-shadow: 0px 5px 10px #aaaaaa;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header" id="header">
+            <img class="logo" src="logo.jpg" alt="Jake Neverida">
+            <h1>Jake Neverida</h1>
+            <p>Frontend Software Engineer</p>
+        </div>
+                <!-- Featured Photo -->
+            <div class="hero" >
+            <div class="featured">
+            <img src="jake.jpg" alt="Featured Photo" style="box-shadow: 0px 5px 10px #aaaaaa; width: 300px; height: 300px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top-right-radius: 10px;">
+            </div>
+
+            <!-- Projects Section -->
+            <div style="display:flex; justify-content: center;">
+                <h2 >Previous Projects</h2>
+            </div>
+                <div id="projects" class="projects">
+    
+                        <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                            <h3>Party Catch</h3>
+                            <img src="project1.png" class="projectImage" alt="Project 1" >
+                            <p>A Java game application that is dynamic and uses Object-Oriented Programming (OOP)</p>
+                        </div>
+            </div>
+            
+
+        <div class="bot">
+            <!-- Skills Section -->
+            <div id="skills" style="width: 20vw; margin-right: 20vw;">
+            <h2>Skills</h2>
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>C Programming</p>
+            </div>
+
+            <!-- Autobiography Section -->
+            <div id="about" style="width: 60vw;">
+            <h2>Autobiography</h2>
+            <p>
+                I am a Computer Science student with a passion for frontend development.<br><br>
+                My enthusiasm for creating visually appealing and user-friendly websites goes hand in hand with
+                my strong foundation in project management. I believe in the perfect blend of creativity and
+                precision, ensuring that each project I undertake not only meets technical standards but also
+                exceeds user expectations.
+                <br><br>
+                I am excited about the prospect of contributing my skills and passion to the dynamic field of frontend development
+                as a Frontend Software Engineer. My dedication to continuous learning and my commitment to delivering high-quality
+                solutions make me a valuable asset to any project.
+            </p>
+             </div> 
+             </div> 
+
+        <div class="header" style="flex-direction: row; display: flex; justify-content: center; gap: 10px; align-items: center;" >
+            <!-- Footer Contents -->
+           
+            <img class="logo" src="logo.jpg" alt="Your Name" style="width: 100px; height: 100px">
+            <div style="flex-direction: column; display: flex; justify-content: center;">
+            <p>University of the Philippines - Los Baños</p>
+            <p>Institute of Computer Science</p>
+            <p>Copyright Information</p>
+            <nav>
+                <a href="#header">Back to Top</a>
+            </nav>
+            </div>
+        </div>
+    </body>
+
+    </html>
